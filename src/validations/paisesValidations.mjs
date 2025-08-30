@@ -127,41 +127,6 @@ body('gini')
     return true;
   }),
 
-
-
-
-
-
-    /*
-    body('gini')
-    ////sanitizar---convertir los valores a número porque por defecto serán strings
-  .customSanitizer(value => {
-    if (typeof value === 'string') {
-      try {
-        return JSON.parse(value);
-      } catch (e) {
-        return value;
-      }
-    }
-    return value;
-  })
-
-        .custom(giniObj => {
-        if (!giniObj || typeof giniObj !== 'object') {
-            throw new Error('El campo Gini debe ser un objeto con años como claves.');
-        }
-
-        for (const [year, value] of Object.entries(giniObj)) {
-            if (!/^\d{4}$/.test(year)) {
-            throw new Error(`La clave "${year}" no es un año válido (debe tener 4 dígitos).`);
-            }
-            if (typeof value !== 'number' || value < 0 || value > 100) {
-            throw new Error(`El valor del Gini para el año ${year} debe ser un número entre 0 y 100.`);
-             }
-         }
-            return true;
-     }), 
-*/
     // Validación para los husos horarios / usar selector m,ultiple en el backend
 body('timezones')
   .optional({ nullable: true }) // lo hace opcional

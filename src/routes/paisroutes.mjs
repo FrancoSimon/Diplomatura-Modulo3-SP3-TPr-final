@@ -45,7 +45,7 @@ router.get('/paises/:id/editar', mostrarFormularioEditarPais);//mostrar la vista
 router.put('/paises/:id/editar', transformarDatosPais, [...idParamValidation, ...paisValidations], validate, editarPaisController);
 
 //crear pais 
-router.post('/paises/agregar', transformarDatosPais, paisValidations, validate, agregarPaisController); //agregar pais
+router.post('/paises/agregar', transformarDatosPais, paisValidations, validate, agregarPaisController);
 
 //borrar pais
 router.delete('/paises/:id', idParamValidation, validate, eliminarPaisController);

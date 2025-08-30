@@ -1,21 +1,22 @@
 {
-  "name": "src",
+  "name": "proyectofinal",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Gestion de paises hispanohablantes",
+  "main": "app.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["api",
+    "rest",
+    "nodejs",
+    "express"],
+  "author": "Franco Simon Olmedo",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "connect-flash": "^0.1.1",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "express-ejs-layouts": "^2.5.1",
-    "express-session": "^1.18.2",
     "express-validator": "^7.2.1",
     "method-override": "^3.0.0",
     "mongoose": "^8.17.1"

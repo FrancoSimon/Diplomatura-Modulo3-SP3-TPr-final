@@ -8,33 +8,11 @@ import methodOverride from 'method-override';
 import expressLayouts from 'express-ejs-layouts';
 import fs from 'fs/promises';
 import paisModel from './models/paisModel.mjs';
-import session from 'express-session';
-import flash from 'connect-flash';
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-// Configurar session
-app.use(session({
-  secret: 'tu-clave-secreta',
-  resave: false,
-  saveUninitialized: true,
-  cookie: { secure: false }
-}));
 
-// Configurar flash messages
-app.use(flash());
-
-// Middleware para hacer flash messages disponibles en todas las vistas
-app.use((req, res, next) => {
-  res.locals.mensaje = req.flash('mensaje');
-  res.locals.error = req.flash('error');
-  
-  // Asegurar que datos siempre sea un objeto, incluso si está vacío
-  const datosFlash = req.flash('datos');
-  res.locals.datos = datosFlash.length > 0 ? datosFlash[0] : {};
-  
-  next();
-});
 
 
 // Configurar __dirname
