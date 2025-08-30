@@ -1,0 +1,71 @@
+  <div class="bg-white bg-opacity-90 text-gray-800 p-8 rounded-2xl shadow-2xl w-full max-w-2xl">
+    <h1 class="text-4xl font-extrabold text-center text-blue-800 mb-6">
+      <%= paisobtenido.nombre || 'Nombre no disponible' %>
+    </h1>
+
+    <% if (paisobtenido.bandera) { %>
+      <div class="flex justify-center mb-6">
+        <img src="<%= paisobtenido.bandera %>" alt="Bandera de <%= paisobtenido.nombre %>" class="h-32 object-contain">
+      </div>
+    <% } %>
+
+    <div class="space-y-4 text-justify text-lg leading-relaxed">
+      <p><strong>Nombre oficial:</strong> <%= paisobtenido.nombreOficial || 'No disponible' %></p>
+      
+      <% if (paisobtenido.capital && paisobtenido.capital.length) { %>
+        <p><strong>Capital:</strong> <%= paisobtenido.capital.join(', ') %></p>
+      <% } else { %>
+        <p><strong>Capital:</strong> No especificada</p>
+      <% } %>
+
+      <% if (paisobtenido.continente && paisobtenido.continente.length) { %>
+        <p><strong>Continente:</strong> <%= paisobtenido.continente.join(', ') %></p>
+      <% } else { %>
+        <p><strong>Continente:</strong> No especificado</p>
+      <% } %>
+
+      <% if (paisobtenido.fronteras && paisobtenido.fronteras.length) { %>
+        <p><strong>Fronteras con:</strong> <%= paisobtenido.fronteras.join(', ') %></p>
+      <% } else { %>
+        <p><strong>Fronteras:</strong> Sin fronteras terrestres</p>
+      <% } %>
+
+      <p><strong>Área:</strong> <%= paisobtenido.area ? paisobtenido.area.toLocaleString() : 'No disponible' %> km²</p>
+      <p><strong>Población:</strong> <%= paisobtenido.poblacion ? paisobtenido.poblacion.toLocaleString() : 'No disponible' %> habitantes</p>
+
+      <% if (paisobtenido.idiomas && paisobtenido.idiomas.length) { %>
+        <p><strong>Idiomas:</strong> <%= paisobtenido.idiomas.join(', ') %></p>
+      <% } else { %>
+        <p><strong>Idiomas:</strong> No especificados</p>
+      <% } %>
+<!--///////////-->
+<% if (paisobtenido.gini && Object.keys(paisobtenido.gini).length) { %>
+  <div>
+    <p><strong>Coeficiente Gini:</strong></p>
+    <ul class="list-disc list-inside ml-4">
+      <% Object.entries(paisobtenido.gini).forEach(([anio, valor]) => { %>
+        <li>Año <%= anio %>: <%= valor %></li>
+      <% }) %>
+    </ul>
+  </div>
+<% } else { %>
+  <p><strong>Coeficiente Gini:</strong> No disponible</p>
+<% } %>
+
+
+<!--////////-->
+      <% if (paisobtenido.zonaHoraria && paisobtenido.zonaHoraria.length) { %>
+        <p><strong>Zonas horarias:</strong> <%= paisobtenido.zonaHoraria.join(', ') %></p>
+      <% } else { %>
+        <p><strong>Zonas horarias:</strong> No especificadas</p>
+      <% } %>
+
+      <p><strong>Creador:</strong> <%= paisobtenido.creador || 'No disponible' %></p>
+    </div>
+
+    <div class="mt-8 text-center">
+      <a href="/api/paises" class="inline-block bg-gray-600 text-white px-6 py-2 rounded-xl font-semibold hover:bg-gray-800 transition">
+        ← Volver al listado
+      </a>
+    </div>
+  </div>

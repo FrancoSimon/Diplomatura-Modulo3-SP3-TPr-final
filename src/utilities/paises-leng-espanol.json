@@ -1,0 +1,478 @@
+[
+  {
+    "nombre": "Venezuela",
+    "nombreOficial": "Bolivarian Republic of Venezuela",
+    "capital": "Caracas",
+    "bandera": "https://flagcdn.com/w320/ve.png",
+    "continente": [
+      "South America"
+    ],
+    "fronteras": [
+      "BRA",
+      "COL",
+      "GUY"
+    ],
+    "area": 916445,
+    "poblacion": 28435943,
+    "idiomas": {
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2006": 44.8
+    },
+    "zonaHoraria": "UTC-04:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Ecuador",
+    "nombreOficial": "Republic of Ecuador",
+    "capital": "Quito",
+    "bandera": "https://flagcdn.com/w320/ec.png",
+    "continente": [
+      "South America"
+    ],
+    "fronteras": [
+      "COL",
+      "PER"
+    ],
+    "area": 276841,
+    "poblacion": 17643060,
+    "idiomas": {
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2019": 45.7
+    },
+    "zonaHoraria": "UTC-06:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Puerto Rico",
+    "nombreOficial": "Commonwealth of Puerto Rico",
+    "capital": "San Juan",
+    "bandera": "https://flagcdn.com/w320/pr.png",
+    "continente": [
+      "North America"
+    ],
+    "area": 8870,
+    "poblacion": 3194034,
+    "idiomas": {
+      "eng": "English",
+      "spa": "Spanish"
+    },
+    "gini": null,
+    "zonaHoraria": "UTC-04:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Chile",
+    "nombreOficial": "Republic of Chile",
+    "capital": "Santiago",
+    "bandera": "https://flagcdn.com/w320/cl.png",
+    "continente": [
+      "South America"
+    ],
+    "fronteras": [
+      "ARG",
+      "BOL",
+      "PER"
+    ],
+    "area": 756102,
+    "poblacion": 19116209,
+    "idiomas": {
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2017": 44.4
+    },
+    "zonaHoraria": "UTC-06:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Costa Rica",
+    "nombreOficial": "Republic of Costa Rica",
+    "capital": "San José",
+    "bandera": "https://flagcdn.com/w320/cr.png",
+    "continente": [
+      "North America"
+    ],
+    "fronteras": [
+      "NIC",
+      "PAN"
+    ],
+    "area": 51100,
+    "poblacion": 5094114,
+    "idiomas": {
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2019": 48.2
+    },
+    "zonaHoraria": "UTC-06:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Dominican Republic",
+    "nombreOficial": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "bandera": "https://flagcdn.com/w320/do.png",
+    "continente": [
+      "North America"
+    ],
+    "fronteras": [
+      "HTI"
+    ],
+    "area": 48671,
+    "poblacion": 10847904,
+    "idiomas": {
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2019": 41.9
+    },
+    "zonaHoraria": "UTC-04:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Paraguay",
+    "nombreOficial": "Republic of Paraguay",
+    "capital": "Asunción",
+    "bandera": "https://flagcdn.com/w320/py.png",
+    "continente": [
+      "South America"
+    ],
+    "fronteras": [
+      "ARG",
+      "BOL",
+      "BRA"
+    ],
+    "area": 406752,
+    "poblacion": 7132530,
+    "idiomas": {
+      "grn": "Guaraní",
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2019": 45.7
+    },
+    "zonaHoraria": "UTC-04:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "El Salvador",
+    "nombreOficial": "Republic of El Salvador",
+    "capital": "San Salvador",
+    "bandera": "https://flagcdn.com/w320/sv.png",
+    "continente": [
+      "North America"
+    ],
+    "fronteras": [
+      "GTM",
+      "HND"
+    ],
+    "area": 21041,
+    "poblacion": 6486201,
+    "idiomas": {
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2019": 38.8
+    },
+    "zonaHoraria": "UTC-06:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Honduras",
+    "nombreOficial": "Republic of Honduras",
+    "capital": "Tegucigalpa",
+    "bandera": "https://flagcdn.com/w320/hn.png",
+    "continente": [
+      "North America"
+    ],
+    "fronteras": [
+      "GTM",
+      "SLV",
+      "NIC"
+    ],
+    "area": 112492,
+    "poblacion": 9904608,
+    "idiomas": {
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2019": 48.2
+    },
+    "zonaHoraria": "UTC-06:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Nicaragua",
+    "nombreOficial": "Republic of Nicaragua",
+    "capital": "Managua",
+    "bandera": "https://flagcdn.com/w320/ni.png",
+    "continente": [
+      "North America"
+    ],
+    "fronteras": [
+      "CRI",
+      "HND"
+    ],
+    "area": 130373,
+    "poblacion": 6624554,
+    "idiomas": {
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2014": 46.2
+    },
+    "zonaHoraria": "UTC-06:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Uruguay",
+    "nombreOficial": "Oriental Republic of Uruguay",
+    "capital": "Montevideo",
+    "bandera": "https://flagcdn.com/w320/uy.png",
+    "continente": [
+      "South America"
+    ],
+    "fronteras": [
+      "ARG",
+      "BRA"
+    ],
+    "area": 181034,
+    "poblacion": 3473727,
+    "idiomas": {
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2019": 39.7
+    },
+    "zonaHoraria": "UTC-03:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Belize",
+    "nombreOficial": "Belize",
+    "capital": "Belmopan",
+    "bandera": "https://flagcdn.com/w320/bz.png",
+    "continente": [
+      "North America"
+    ],
+    "fronteras": [
+      "GTM",
+      "MEX"
+    ],
+    "area": 22966,
+    "poblacion": 397621,
+    "idiomas": {
+      "bjz": "Belizean Creole",
+      "eng": "English",
+      "spa": "Spanish"
+    },
+    "gini": {
+      "1999": 53.3
+    },
+    "zonaHoraria": "UTC-06:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Bolivia",
+    "nombreOficial": "Plurinational State of Bolivia",
+    "capital": "Sucre",
+    "bandera": "https://flagcdn.com/w320/bo.png",
+    "continente": [
+      "South America"
+    ],
+    "fronteras": [
+      "ARG",
+      "BRA",
+      "CHL",
+      "PRY",
+      "PER"
+    ],
+    "area": 1098581,
+    "poblacion": 11673029,
+    "idiomas": {
+      "aym": "Aymara",
+      "grn": "Guaraní",
+      "que": "Quechua",
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2019": 41.6
+    },
+    "zonaHoraria": "UTC-04:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Peru",
+    "nombreOficial": "Republic of Peru",
+    "capital": "Lima",
+    "bandera": "https://flagcdn.com/w320/pe.png",
+    "continente": [
+      "South America"
+    ],
+    "fronteras": [
+      "BOL",
+      "BRA",
+      "CHL",
+      "COL",
+      "ECU"
+    ],
+    "area": 1285216,
+    "poblacion": 32971846,
+    "idiomas": {
+      "aym": "Aymara",
+      "que": "Quechua",
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2019": 41.5
+    },
+    "zonaHoraria": "UTC-05:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Cuba",
+    "nombreOficial": "Republic of Cuba",
+    "capital": "Havana",
+    "bandera": "https://flagcdn.com/w320/cu.png",
+    "continente": [
+      "North America"
+    ],
+    "area": 109884,
+    "poblacion": 11326616,
+    "idiomas": {
+      "spa": "Spanish"
+    },
+    "gini": null,
+    "zonaHoraria": "UTC-05:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Argentina",
+    "nombreOficial": "Argentine Republic",
+    "capital": "Buenos Aires",
+    "bandera": "https://flagcdn.com/w320/ar.png",
+    "continente": [
+      "South America"
+    ],
+    "fronteras": [
+      "BOL",
+      "BRA",
+      "CHL",
+      "PRY",
+      "URY"
+    ],
+    "area": 2780400,
+    "poblacion": 45376763,
+    "idiomas": {
+      "grn": "Guaraní",
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2019": 42.9
+    },
+    "zonaHoraria": "UTC-03:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Colombia",
+    "nombreOficial": "Republic of Colombia",
+    "capital": "Bogotá",
+    "bandera": "https://flagcdn.com/w320/co.png",
+    "continente": [
+      "South America"
+    ],
+    "fronteras": [
+      "BRA",
+      "ECU",
+      "PAN",
+      "PER",
+      "VEN"
+    ],
+    "area": 1141748,
+    "poblacion": 50882884,
+    "idiomas": {
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2019": 51.3
+    },
+    "zonaHoraria": "UTC-05:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Mexico",
+    "nombreOficial": "United Mexican States",
+    "capital": "Mexico City",
+    "bandera": "https://flagcdn.com/w320/mx.png",
+    "continente": [
+      "North America"
+    ],
+    "fronteras": [
+      "BLZ",
+      "GTM",
+      "USA"
+    ],
+    "area": 1964375,
+    "poblacion": 128932753,
+    "idiomas": {
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2018": 45.4
+    },
+    "zonaHoraria": "UTC-08:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Guatemala",
+    "nombreOficial": "Republic of Guatemala",
+    "capital": "Guatemala City",
+    "bandera": "https://flagcdn.com/w320/gt.png",
+    "continente": [
+      "North America"
+    ],
+    "fronteras": [
+      "BLZ",
+      "SLV",
+      "HND",
+      "MEX"
+    ],
+    "area": 108889,
+    "poblacion": 16858333,
+    "idiomas": {
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2014": 48.3
+    },
+    "zonaHoraria": "UTC-06:00",
+    "creador": "Franco Simon Olmedo"
+  },
+  {
+    "nombre": "Panama",
+    "nombreOficial": "Republic of Panama",
+    "capital": "Panama City",
+    "bandera": "https://flagcdn.com/w320/pa.png",
+    "continente": [
+      "North America"
+    ],
+    "fronteras": [
+      "COL",
+      "CRI"
+    ],
+    "area": 75417,
+    "poblacion": 4314768,
+    "idiomas": {
+      "spa": "Spanish"
+    },
+    "gini": {
+      "2019": 49.8
+    },
+    "zonaHoraria": "UTC-05:00",
+    "creador": "Franco Simon Olmedo"
+  }
+]

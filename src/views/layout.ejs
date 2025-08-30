@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title || "Proyecto Países" %></title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="min-h-screen flex flex-col bg-cover bg-center bg-fixed"
+      style="background-image: url('/img/fondoweb.jpg')">
+
+  <!-- Navbar-->
+  <header>
+    <%- include('partials/navbar') %>
+  </header>
+
+  <!-- Contenido dinámico -->
+  <main class="flex-grow flex justify-center items-center p-6">
+    <div class="w-full max-w-6xl">
+      <%- body %>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <%- include('partials/footer') %>
+  </footer>
+</body>
+</html>
